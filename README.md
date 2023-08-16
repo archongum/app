@@ -11,7 +11,7 @@ app_port: 8051
 pinned: true
 ---
 
-# omymodels-online
+# App
 
 ## Installation
 
