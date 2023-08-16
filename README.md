@@ -21,7 +21,7 @@ python -m venv .venv
 
 pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple
 
-streamlit run Home.py
+streamlit run App.py
 ```
 
 打开浏览器，访问: http://127.0.0.1:8051
