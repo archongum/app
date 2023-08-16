@@ -10,4 +10,17 @@ show_pages(
     ]
 )
 
-add_page_title()  # Optional method to add title and icon to current page
+add_page_title()
+
+st.markdown(
+    r"""
+## App
+
+👉Click on Sidebar
+
+## External App
+
+- [SQL Parser](https://archongum.cn/static/filebeat_pg_parser.html)
+
+"""
+)
