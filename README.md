@@ -1,15 +1,14 @@
 ---
-title: omymodels-online
-emoji: 🌍
+title: App
+emoji: 🧨
 colorFrom: green
 colorTo: indigo
-python_version: 3.1
+python_version: 3.10
 sdk: streamlit
-sdk_version: 1.24.0
-app_file: Home.py
+sdk_version: 1.25.0
+app_file: App.py
 app_port: 8051
 pinned: true
-duplicated_from: Archon/omymodels-online
 ---
 
 # omymodels-online

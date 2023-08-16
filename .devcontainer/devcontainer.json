@@ -1,0 +1,32 @@
+{
+    // default image
+    // "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "postCreateCommand": {
+        "init_script": "sh .devcontainer/init.sh"
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "editor.defaultFormatter": "ms-python.black-formatter",
+                "editor.formatOnSave": true,
+                "editor.formatOnSaveMode": "file",
+                "editor.formatOnType": true,
+                "editor.codeActionsOnSave": {
+                    "source.organizeImports": true
+                },
+                "isort.args": [
+                    "--profile",
+                    "black"
+                ]
+            },
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-python.pylint",
+                "ms-python.black-formatter",
+                "ms-python.isort",
+                "EditorConfig.EditorConfig"
+            ]
+        }
+    }
+}
