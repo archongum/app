@@ -1,5 +1,5 @@
 import base64
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from io import StringIO
 from typing import Optional
 
@@ -20,7 +20,7 @@ class Metadata:
 class YamlBase:
     kind: str = "Secret"
     apiVersion: str = "v1"
-    metadata: Metadata = Metadata(name="app-secret")
+    metadata: Metadata = field(default_factory=Metadata(name="app-secret"))
     type: str = "Opaque"
     data: dict[str, str] = None
 

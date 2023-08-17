@@ -3,7 +3,7 @@ title: App
 emoji: 🧨
 colorFrom: green
 colorTo: indigo
-python_version: 3.11
+python_version: 3.10
 sdk: streamlit
 sdk_version: 1.25.0
 app_file: App.py

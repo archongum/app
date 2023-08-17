@@ -6,4 +6,5 @@ st-pages~=0.4.3
 omymodels~=0.13.0
 
 # app: Kubernetes Secret
+PyYAML~=6.0.1
 python-dotenv~=1.0.0
