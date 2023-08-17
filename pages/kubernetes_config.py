@@ -102,16 +102,6 @@ def main():
     with c_text_yaml:
         st.text_area("YAML", height=473, key="c_text_yaml", on_change=_on_yaml_to_env)
 
-    st.markdown(
-        r"""
-> Tips: Change ENV or YAML then press `Ctrl + Enter`.
->
-> Or using buttoms blow:
-""".strip()
-    )
-    st.button("ENV -> YAML", on_click=_on_env_to_yaml)
-    st.button("YAML -> ENV", on_click=_on_yaml_to_env)
-
 
 if __name__ == "__main__":
     main()
