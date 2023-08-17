@@ -102,6 +102,14 @@ def main():
     with c_text_yaml:
         st.text_area("YAML", height=473, key="c_text_yaml", on_change=_on_yaml_to_env)
 
+    st.markdown(
+        r"""
+> Tips:
+>
+> In Shell: `kubectl create secret generic app-secret --dry-run=client -o yaml --from-env-file=.env`
+""".strip()
+    )
+
 
 if __name__ == "__main__":
     main()
