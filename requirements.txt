@@ -3,7 +3,7 @@ streamlit~=1.25.0
 st-pages~=0.4.3
 
 # app: Omymodels Online
-omymodels~=0.13.0
+omymodels~=0.14.0
 
 # app: Kubernetes Secret
 PyYAML~=6.0.1
