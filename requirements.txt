@@ -4,6 +4,7 @@ st-pages~=0.4.3
 
 # app: Omymodels Online
 omymodels~=0.14.0
+pydantic~=1.10.14
 
 # app: Kubernetes Secret
 PyYAML~=6.0.1
